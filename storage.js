@@ -1,6 +1,6 @@
-const username = "USERNAME_KAMU";
+const username = "onlyyonekai0";
 const repo = "cloud-storage";
-const token = "TOKEN_KAMU";
+const token = "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";
 
 async function uploadFile(file) {
     const reader = new FileReader();
