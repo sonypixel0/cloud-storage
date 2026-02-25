@@ -1,0 +1,13 @@
+<script src="storage.js"></script>
+
+<h3>Upload File</h3>
+<input type="file" id="fileInput">
+<button onclick="uploadFile(document.getElementById('fileInput').files[0])">
+Upload
+</button>
+
+<div id="fileList"></div>
+
+<script>
+listFiles();
+</script>
